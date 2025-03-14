@@ -26,7 +26,9 @@ function cadastrarDados(event){
     
 
     localStorage.setItem("dados", JSON.stringify(dados));
+
     alert("Dados salvos!");
+    
     document.getElementById("id").value = "";
     document.getElementById("numero").value = "";
     document.getElementById("linha").value = "";

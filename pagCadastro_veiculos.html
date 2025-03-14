@@ -10,15 +10,15 @@
 
     <header>
         <h1>Cadastro veicular</h1>
-        <h2><a href="http://127.0.0.1:3000/atividade_10/pagPesquisaResultados.html">Pesquisar veículo</a></h2>
+        <h2><a href="http://127.0.0.1:3000/pagPesquisaResultados.html">Pesquisar veículo</a></h2>
         <h2><a href="http://localhost:5500/Inicio.html">Início</a></h2>
     </header>
 
 <body>
     <div class="container">
-        <form id="cadastroForm">
-                <h2> Cadastrar Veículo</h2>
-                <form id="cadastroForm" onsubmit="cadastrarDados(event)"></form>
+        <form id="cadastroForm" onsubmit="cadastrarDados(event)">
+                    <h2> Cadastrar Veículo</h2>
+                    
                     <label for="idVeiculo">Digite o Id do veiculo:</label>
                     <input type="text" name="id" id="id" required placeholder="Digite o ID">
                     
@@ -29,7 +29,7 @@
                     <input type="text" name="linha" id="linha" required placeholder="Digite a Linha">
         
                     <button type="submit">Cadastrar</button>
-                    <br><br>
+                    
                     
         </form>
     </div>
